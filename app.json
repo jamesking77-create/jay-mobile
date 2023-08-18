@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "j-mobile-1",
+    "slug": "j-mobile-1"
+  }
+}
