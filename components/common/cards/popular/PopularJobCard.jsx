@@ -5,7 +5,7 @@ import styles from './popularjobcard.style'
 import { log } from 'react-native-reanimated'
 
 const PopularJobCard = ({item, selectedJob, handleCardPress}) => {
-  console.log('this is item -->>', item);
+
   return (
   <TouchableOpacity
   style={styles.container(selectedJob, item)}
@@ -14,7 +14,7 @@ const PopularJobCard = ({item, selectedJob, handleCardPress}) => {
     <TouchableOpacity style={styles.logoContainer(selectedJob, item)}>
     <Image
       source={{uri: checkImageURL(item.employer_logo)
-      ? item.employer_logo : 'b'
+      ? item.employer_logo : '../../../../assets/images/bimepng.png'
       }}
       resizeMode="contain"
       style={styles.logoImage}
